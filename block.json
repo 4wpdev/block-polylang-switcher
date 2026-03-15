@@ -1,0 +1,10 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "bps/polylang-switcher",
+	"version": "1.0.0",
+	"title": "Polylang Language Switcher",
+	"category": "widgets",
+	"description": "Displays the Polylang language switcher. Requires Polylang plugin.",
+	"textdomain": "block-polylang-switcher"
+}

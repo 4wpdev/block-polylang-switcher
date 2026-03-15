@@ -1,0 +1,36 @@
+/* Polylang switcher — мінімальний стилізований селектор без бордера, у стилі сайту */
+.bps-switcher--select {
+	display: inline-block;
+}
+
+.bps-switcher__select {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	display: inline-block;
+	min-width: 3em;
+	padding: 0.25em 1.25em 0.25em 0;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	font-family: inherit;
+	color: inherit;
+	background-color: transparent;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 12 12'%3E%3Cpath fill='currentColor' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-position: right 0 center;
+	background-size: 8px;
+	border: none;
+	border-radius: 0;
+	cursor: pointer;
+}
+
+.bps-switcher__select:hover,
+.bps-switcher__select:focus {
+	outline: none;
+	opacity: 0.85;
+}
+
+.bps-switcher__select option {
+	font-weight: inherit;
+}
